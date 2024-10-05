@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 0.55em; 
+    line-height: 1.2; 
+}
+
+.resume {
+    width: 816px;
+    max-width: 816px; 
+    height: 1056px; 
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    padding: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative; 
+}
+
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    height: 100%; 
+    padding: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    position: relative; 
+}
+
+.canvas {
+    width: 100%; 
+    max-width: 855px; 
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #cfcfcf; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box;
+}
+
+h2 {
+    font-weight: bold;
+    margin: -35px; /* Remove default margin */
+    padding: -20px; /* Remove default padding */
+    margin-top: -50px;
+}
+
+hr {
+    width: 65%; /* Adjust the width as needed */
+    margin: 25px auto 25px 135px; /* Adjust the values as needed */
+    border: 1px solid #000000; /* Adjust the border style as needed */
+}
+
+.left-hr {
+    width: 67%; /* Adjust the width as needed */
+    border: 1px solid #000000; /* Adjust the border style as needed */
+    margin-top: -15px;
+    margin-left: 260px; /* Move it to the right */
+    margin-right: 0; /* Ensure it aligns to the right */
+}
+
+h3 {
+    margin-top: 10px; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+h4 {
+    margin: 20px; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+h5 {
+    margin: 20px; 
+    font-size: 1em;
+    padding: 0; /* Remove default padding */
+}
+
+h6 {
+    margin: 20px; 
+    font-size: 1em;
+    padding: 0; /* Remove default padding */
+}
+
+h7 {
+    margin: 20px; 
+    font-size: 1em;
+    padding: 0; /* Remove default padding */
+}
+
+h9 {
+    font-weight: bold; /* Make the text bold */
+    margin: -35px; /* Remove default margin */
+    padding: -20px; /* Remove default padding */
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+
+.header {
+    text-align: center; 
+    margin-top: -70px; 
+    margin-right: -50px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start (left) */
+    margin-top: 90px;
+    margin-left: -50px;
+    height: 80px;
+}
+
+.name {
+    font-size: 3em; 
+    margin: 0;
+    margin-top: -100px;
+    margin-right: -125px;; 
+}
+
+.contact-info {
+    font-size: 1em; 
+    margin-left: 30px; /* Space between the contact info and profile picture */
+}
+
+.profile-picture {
+    object-fit: cover;
+    margin-top: -80px;
+    margin-left: 115px;
+    width: 15%;
+    border-radius: 25%;
+}
+
+.job-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: -15px;
+}
+.job-header3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: -15px;
+    margin-left: 10px;
+}
+
+.job-item-1 {
+    width: 100%; /* Make each li element take full width */
+    padding: 10px; /* Add padding for better readability */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    margin-top: 15px; /* Add space between the first li and the h3 */
+
+}
+
+.job-item-2 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add custom styles for this item */
+}
+
+.job-item-3 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add custom styles for this item */
+}
+
+.job-item-4 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add custom styles for this item */
+}
+
+.job-item-5 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.job-item-6 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add custom styles for this item */
+}
+
+.job-item-7 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add custom styles for this item */
+}
+
+.job-item-8 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    /* Add custom styles for this item */
+}
+
+.job-item-9 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 15px; /* Add space between the first li and the h3 */
+    margin-left: 10px;
+    /* Add custom styles for this item */
+}
+
+.job-item-10 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+    /* Add custom styles for this item */
+}
+
+.job-item-11 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+    /* Add custom styles for this item */
+}
+
+.job-item-12 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+    /* Add custom styles for this item */
+}
+
+.job-item-13 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: 15px; /* Add space between the first li and the h3 */
+    margin-left: 10px;
+    /* Add custom styles for this item */
+}
+
+.job-item-14 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+    /* Add custom styles for this item */
+}
+
+.job-item-15 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+    /* Add custom styles for this item */
+}
+
+.job-item-16 {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+/* Navigation buttons styling */
+#nextPageButton {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin-left: 10px;
+}
+
+.prev-page-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+
+#page2 canvas{
+    width: 90%;
+    max-width: 900px;
+    height: auto;
+    padding: 30px;
+}
+
+#page2 .resume {
+    width: 90%; 
+    max-width: 900px; 
+    height: auto; 
+    padding: 30px; 
+}
+
+.vl {
+    border-left: 3px solid rgb(0, 0, 0);
+    height: 142px;
+    position: absolute;
+    left: 50%;
+    margin-left: -357px;
+    margin-top: 375px;
+    top: 0;
+}
